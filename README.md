@@ -1,5 +1,5 @@
 # utilities
-
+```js
 require('chromedriver');
 const selenium = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
@@ -132,3 +132,4 @@ function getPassword(password) {
   password = password.substring(password.indexOf('[') + 1, password.indexOf(']'));
   return  password.split(':')[1];
 }
+```
